@@ -1,31 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 html {
     font-family: arial;
     margin: 0px;
 }
 body {
     margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Fira Code", monospace;
 }
-header {
-    overflow: hidden;
-    background-color: #FFD96E;
-    box-shadow: 0 0 5px RGB(255, 126, 90, 5)
-}
-header li {
-    font-size: 40px;
+nav li {
+    font-size: 20px;
     list-style-type: none;
     display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 5%
+    padding: 1%;
+    color: #c0c5ce;
 }
-header li:hover {
-    background-color: #F3CE67;
+nav li:hover {
+    background-color: #ffffff;
 }
-header a {
+nav a {
     text-decoration: none;
-    color: black;
+    color: #4f5b66;
+}
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #151515;
 }
 main {
     margin-left: 2.5%;
@@ -33,7 +36,7 @@ main {
     padding-top: 2.5%;
 }
 main p {
-    font-size: 24px;
+    font-size: 20px;
 }
 pre code p {
     margin-left: 1%;
