@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-html {
-    font-family: arial;
-    margin: 0px;
-}
 body {
     margin: 0px;
     background-color: black;
     color: white;
     font-family: "Fira Code", monospace;
+}
+
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #151515;
 }
 nav li {
     font-size: 20px;
@@ -23,28 +27,13 @@ nav a {
     text-decoration: none;
     color: #4f5b66;
 }
-nav {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #151515;
+
+nav a:hover {
+    color:#1d5e97
 }
+
 main {
     margin-left: 2.5%;
     margin-right: 2.5%;
     padding-top: 2.5%;
-}
-main p {
-    font-size: 20px;
-}
-pre code p {
-    margin-left: 1%;
-    margin-right: 1%;
-    border-radius: 10px;
-    border: 1px #404040;
-}
-.a code p {
-    background-color: #404040;
-    color: white;
 }
